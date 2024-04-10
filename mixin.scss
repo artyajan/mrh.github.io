@@ -1,0 +1,24 @@
+// @import'./../variable/variable.css';                   /*kanchum enq popoxakanin*/
+
+
+
+
+@mixin flax (){                            /*@mixin  Տալիս ենք բանալի բառ (flax) որ հետո կանչենք ուրիշ տեղ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;                             /* տալիս ենք ցնող բլոկին տողադադարձ կատարելու համար  */
+    flex-grow: 1;                                /*տողադարձ լինելու դեպքում բլոկը ստանում է  width 100% կարգավիճակ */
+    
+}
+@mixin chaps(){
+    width: 100%;
+    height: 100vh;
+    border: solid;
+}
+@mixin zero (){
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;              
+}

@@ -1,0 +1,193 @@
+@import'./mixin.scss';
+@import'./RD/stayl.css';
+@import'./footer/stayl.scss';
+
+
+
+* {
+    font-family: "Karma", sans-serif;
+}
+
+header {
+    background-image: url(./nk/1.jpg);
+    background-size: 100% 100%;
+
+}
+
+.navbar-nk {
+    width: 70px;
+    height: 56px;
+    border-radius: 50%;
+}
+
+.navbar-nk:hover {
+    transition: 1s;
+    transform: rotate(90deg);
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+}
+
+.kexc {
+    z-index: -8;
+    height: 100px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.skizb img {
+    width: 100%;
+
+}
+
+.container {
+    width: 100%;
+    @include flax();
+    margin: 20px;
+    padding: 10px;
+}
+
+
+.box {
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 10px 11px 16px 1px rgba(0, 0, 0, 0.78);
+    border-radius: 0px 40px;
+
+    img {
+        width: 260px;
+        height: 200px;
+        border-radius: 0px 40px;
+
+    }
+
+    .drosh {
+        width: 120px;
+        height: 70px;
+    }
+
+    .drosh:hover {
+        box-shadow: 10px 11px 16px 1px
+    }
+
+
+    .button-33 {
+        background-color: #c2fbd7;
+        border-radius: 100px;
+        box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+        color: green;
+        cursor: pointer;
+        display: inline-block;
+        font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+        padding: 7px 20px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 250ms;
+        border: 0;
+        font-size: 16px;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+
+    .button-33:hover {
+        box-shadow: rgba(44, 187, 99, .35) 0 -25px 18px -14px inset, rgba(44, 187, 99, .25) 0 1px 2px, rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+    }
+}
+
+.box:hover {
+    transform: scale(1.2) translate(23px, 0px);
+    transition: 2s;
+}
+
+.ejer {
+    padding: 50px;
+}
+
+.tak {
+    width: 100%;
+    height: 60vh;
+    border: solid;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.qaxaqner {
+    width: 100%;
+    height: 100vh;
+    @include flax();
+
+    img {
+        width: 200px;
+        height: 120px;
+        margin: 10px;
+
+    }
+
+}
+
+.qaxaqner img:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 28px 13px #000000;
+    transition: 2s;
+}
+
+
+footer {
+    width: 100%;
+    height: 45vh;
+    background-image: url(https://4kwallpapers.com/images/wallpapers/plane-sunset-starry-sky-illustration-red-sky-3840x1080-299.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    left: 0%;
+
+    .conteiner-xxl {
+        @include flax();
+        justify-content: space-around;
+
+        ul {
+            list-style: none;
+
+            li {
+                a {
+                    color: white;
+                    font-size: 25px;
+                    text-decoration: none;
+
+                }
+
+            }
+        }
+
+        .logoi {
+
+            ul {
+                li {
+                    img {
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 30px;
+                        filter: grayscale(0%);
+                    }
+
+                }
+            }
+
+
+        }
+    }
+}
+
+.logoi img:hover {
+    transform: scale(1.2);
+}

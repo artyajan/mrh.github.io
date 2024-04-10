@@ -1,0 +1,217 @@
+@charset "UTF-8";
+@import './RD/stayl.css';
+* {
+  font-family: "Karma", sans-serif;
+}
+
+header {
+  background-image: url(./nk/1.jpg);
+  background-size: 100% 100%;
+}
+
+.navbar-nk {
+  width: 70px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.navbar-nk:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.nav-link:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.kexc {
+  z-index: -8;
+  height: 100px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.skizb img {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  /*@mixin  Տալիս ենք բանալի բառ (flax) որ հետո կանչենք ուրիշ տեղ */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; /* տալիս ենք ցնող բլոկին տողադադարձ կատարելու համար  */
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; /*տողադարձ լինելու դեպքում բլոկը ստանում է  width 100% կարգավիճակ */
+  margin: 20px;
+  padding: 10px;
+}
+
+.box {
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  padding: 10px;
+  -webkit-box-shadow: 10px 11px 16px 1px rgba(0, 0, 0, 0.78);
+          box-shadow: 10px 11px 16px 1px rgba(0, 0, 0, 0.78);
+  border-radius: 0px 40px;
+}
+.box img {
+  width: 260px;
+  height: 200px;
+  border-radius: 0px 40px;
+}
+.box .drosh {
+  width: 120px;
+  height: 70px;
+}
+.box .drosh:hover {
+  -webkit-box-shadow: 10px 11px 16px 1px;
+          box-shadow: 10px 11px 16px 1px;
+}
+.box .button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  -webkit-box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset, rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px, rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px, rgba(44, 187, 99, 0.15) 0 16px 32px;
+          box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset, rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px, rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px, rgba(44, 187, 99, 0.15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+}
+.box .button-33:hover {
+  -webkit-box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset, rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px, rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px, rgba(44, 187, 99, 0.25) 0 16px 32px;
+          box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset, rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px, rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px, rgba(44, 187, 99, 0.25) 0 16px 32px;
+  -webkit-transform: scale(1.05) rotate(-1deg);
+          transform: scale(1.05) rotate(-1deg);
+}
+
+.box:hover {
+  -webkit-transform: scale(1.2) translate(23px, 0px);
+          transform: scale(1.2) translate(23px, 0px);
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.ejer {
+  padding: 50px;
+}
+
+.tak {
+  width: 100%;
+  height: 60vh;
+  border: solid;
+}
+.tak img {
+  width: 100%;
+  height: 100%;
+}
+
+.qaxaqner {
+  width: 100%;
+  height: 100vh;
+  /*@mixin  Տալիս ենք բանալի բառ (flax) որ հետո կանչենք ուրիշ տեղ */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; /* տալիս ենք ցնող բլոկին տողադադարձ կատարելու համար  */
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; /*տողադարձ լինելու դեպքում բլոկը ստանում է  width 100% կարգավիճակ */
+}
+.qaxaqner img {
+  width: 200px;
+  height: 120px;
+  margin: 10px;
+}
+
+.qaxaqner img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-box-shadow: 0px 0px 28px 13px #000000;
+          box-shadow: 0px 0px 28px 13px #000000;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+footer {
+  width: 100%;
+  height: 45vh;
+  background-image: url(https://4kwallpapers.com/images/wallpapers/plane-sunset-starry-sky-illustration-red-sky-3840x1080-299.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 0;
+  left: 0%;
+}
+footer .conteiner-xxl {
+  /*@mixin  Տալիս ենք բանալի բառ (flax) որ հետո կանչենք ուրիշ տեղ */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; /* տալիս ենք ցնող բլոկին տողադադարձ կատարելու համար  */
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; /*տողադարձ լինելու դեպքում բլոկը ստանում է  width 100% կարգավիճակ */
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+footer .conteiner-xxl ul {
+  list-style: none;
+}
+footer .conteiner-xxl ul li a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+footer .conteiner-xxl .logoi ul li img {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.logoi img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
